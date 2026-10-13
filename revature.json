@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/AlterATableTest.java",
+      "testCases": [
+        {
+          "methodName": "problem1Test",
+          "label": "Verify ALTER TABLE adds the lastname column successfully",
+          "description": "Runs problem1(), which should alter the site_user table to include a lastname column. The test then performs a SELECT on lastname; if the column exists and the query succeeds, the test passes."
+        }
+      ]
+    }
+  ]
+}
